@@ -1,4 +1,4 @@
-### ML_PROJECT EVALUATION: Please open the notebook named "YOLO_FINAL.ipynb" for the neural network design, training, testing and analysis. 
+### Machine learning project for the course EL-GY 9123
 
 # Deep Learning for Lung Nodule Detection
 Lung nodule detection for lung cancer diagnosis.
