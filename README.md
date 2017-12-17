@@ -1,8 +1,10 @@
+# ML_PROJECT EVALUATION: Please open the notebook named "YOLO_FINAL.ipynb" for the neural network design, training, testing and analysis. 
+
 # Lung-Nodule-Detection---ML_Project
 Lung nodule detection using YOLO
 
 
-ML_PROJECT EVALUATION: Please open the notebook named "YOLO_FINAL.ipynb" for the neural network design, training, testing and analysis. 
+
 
 Code Heirarchi: 
 # OVERVIEW
