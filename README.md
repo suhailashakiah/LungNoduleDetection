@@ -19,5 +19,10 @@ The first and biggest step was to organize the data. XML parsing was carried out
 
 Further, from these dictionaries, an array of pixel values was extracted from the DICOM images using the pydicom package and was stored in a separate folder after rescaling using the mean and standard deviation. Another folder contained the co-ordinates of the annotations for the corresponding images. 
 
-A total of 3000 annotated CT images was used for training out of which 2100 were used for training and the rest for testing. 
+A total of 3000 annotated CT images were used for training out of which 2100 were used for training and the rest for testing. 
 
+2. Training 
+
+The YOLO algorithm detects objects and predicts bounding boxes with just one pass through the image instead of multiple sliding windows. Inspired from this idea, we tried out the YOLO algorithm to detect the probabilities of the presence of a nodule in the image by dividing into a 16 by 16 grid. Our algorithm does not predict bounding boxes.
+
+A convolutional neural network with 23 layers that was inspired from u-net and resnet was designed after multiple iterations. A bacth size of 1 worked the best and training was carried out on 2100 images. 
