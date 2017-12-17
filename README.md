@@ -8,7 +8,7 @@ Code Hierarchi:
 2. NON NODULES XML PROCESSING WITHOUT REGION DUPLICATES.ipynb
 3. NODULES DCM-XML MAPPING.ipynb
 4. NON NODULES DCM-XML MAPPING
-
+5. Creating .npy files of image pixels for training.ipynb
 
 # Overview
 We provide a brief overview here. Detailed analysis can be found in the jupyter notebook "YOLO_FINAL.ipynb" .
