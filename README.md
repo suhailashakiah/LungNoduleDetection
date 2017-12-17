@@ -1,7 +1,7 @@
 ### Machine learning project for the course EL-GY 9123
 
 # Deep Learning for Lung Nodule Detection
-In this project, we use deep learning to detect lund cancer nodules. 
+In this project, we use deep learning to detect lung cancer nodules. 
 
 #### Code Hierarchi: 
 1. NODULES XML PROCESSING WITHOUT REGION DUPLICATES.ipynb
