@@ -3,7 +3,7 @@
 # Deep Learning for Lung Nodule Detection
 In this project, we use deep learning to detect lund cancer nodules. 
 
-Code Hierarchi: 
+#### Code Hierarchi: 
 1. NODULES XML PROCESSING WITHOUT REGION DUPLICATES.ipynb
 2. NON NODULES XML PROCESSING WITHOUT REGION DUPLICATES.ipynb
 3. NODULES DCM-XML MAPPING.ipynb
