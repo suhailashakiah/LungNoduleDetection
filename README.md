@@ -9,6 +9,7 @@ In this project, we use deep learning to detect lung cancer nodules.
 3. NODULES DCM-XML MAPPING.ipynb
 4. NON NODULES DCM-XML MAPPING
 5. Creating .npy files of image pixels for training.ipynb
+6. YOLO_FINAL.ipynb
 
 # Overview
 We provide a brief overview here. Detailed analysis can be found in the jupyter notebook "YOLO_FINAL.ipynb" .
