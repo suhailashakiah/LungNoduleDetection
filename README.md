@@ -10,7 +10,8 @@ Code Heirarchi:
 The dataset used for this project is the LIDC-IDRI dataset. The whole dataset which is 124GB of images and annotations in the form of XML files can be obtained from the following link: 
 https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI
 The dataset consists of CT scan series of varying lengths for 1018 patients with annotated nodules:
-->3 mm 
+
+- >3 mm 
 - <3 mm
 - non-nodules
 
