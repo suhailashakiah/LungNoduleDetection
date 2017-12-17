@@ -5,8 +5,9 @@ Lung nodule detection using YOLO
 ML_PROJECT EVALUATION: Please open the notebook named "YOLO_FINAL.ipynb" for the neural network design, training, testing and analysis. 
 
 Code Heirarchi: 
-
-# 1. Dataset
+# OVERVIEW
+We provide a brief overview here. Detailed analysis can be found in the jupyter notebook "YOLO_FINAL.ipynb" .
+## 1. Dataset
 The dataset used for this project is the LIDC-IDRI dataset. The whole dataset which is 124GB of images and annotations in the form of XML files can be obtained from the following link: 
 https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI
 The dataset consists of CT scan series of varying lengths for 1018 patients with annotated nodules with diameters:
@@ -21,7 +22,7 @@ Further, from these dictionaries, an array of pixel values was extracted from th
 
 A total of 3000 annotated CT images were used for training out of which 2100 were used for training and the rest for testing. 
 
-2. Training 
+## 2. Training 
 
 The YOLO algorithm detects objects and predicts bounding boxes with just one pass through the image instead of multiple sliding windows. Inspired from this idea, we tried out the YOLO algorithm to detect the probabilities of the presence of a nodule in the image by dividing into a 16 by 16 grid. Our algorithm does not predict bounding boxes.
 
