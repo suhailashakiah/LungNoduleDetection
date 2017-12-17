@@ -4,6 +4,10 @@
 Lung nodule detection for lung cancer diagnosis.
 
 Code Heirarchi: 
+1. NODULES XML PROCESSING WITHOUT REGION DUPLICATES.ipynb
+2. NON NODULES XML PROCESSING WITHOUT REGION DUPLICATES.ipynb
+
+
 # Overview
 We provide a brief overview here. Detailed analysis can be found in the jupyter notebook "YOLO_FINAL.ipynb" .
 ## 1. Dataset
