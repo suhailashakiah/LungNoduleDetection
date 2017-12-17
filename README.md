@@ -24,6 +24,14 @@ A total of 3000 annotated CT images were used for training out of which 2100 wer
 
 ## 2. Training 
 
-The YOLO algorithm detects objects and predicts bounding boxes with just one pass through the image instead of multiple sliding windows. Inspired from this idea, we tried out the YOLO algorithm to detect the probabilities of the presence of a nodule in the image by dividing into a 16 by 16 grid. Our algorithm does not predict bounding boxes.
+The YOLO algorithm detects objects and predicts bounding boxes with just one pass through the image instead of multiple sliding windows. Inspired from this idea, we tried out the YOLO algorithm to detect the probabilities of the presence of a nodule in a CT scan by dividing each scan into a 16 by 16 grid. Our algorithm does not predict bounding boxes.
 
-A convolutional neural network with 23 layers that was inspired from u-net and resnet was designed after multiple iterations. A bacth size of 1 worked the best and training was carried out on 2100 images. 
+For more information on the YOLO algorithm, read the paper at this link: 
+https://arxiv.org/abs/1506.02640
+
+
+A convolutional neural network with 23 layers that was inspired from u-net and resnet was designed after multiple iterations. A batch size of 1 worked the best and training was carried out on 2100 images. 
+
+## 3. Testing and Analysis 
+
+An accuracy of 41% was obtained as defined by our accuracy metric. For more details please refer to the jupyter notebook. 
