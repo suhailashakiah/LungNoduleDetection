@@ -14,9 +14,9 @@ The dataset consists of CT scan series of varying lengths for 1018 patients with
 - <3 mm
 - non-nodules
 
-The first step was to organize the data. XML parsing was carrie dout for all the 1018 patients and a dictionary was made with SERIES ID (which identifies the slice of the CT scan series) as the key and all the nodules annotated in it as the values. 
+The first and biggest step was to organize the data. XML parsing was carried out for all the 1018 patients and a dictionary was made with SERIES ID (which identifies the slice of the CT scan series) as the key and all the nodules annotated in it as the values. 
 
-Further, from these dictionaries, an array of pixel values was extracted from the DICOM images using the pydicom package and was stored in a separate folder. Another folder contained the co-odinates of the annotations for the corresponding images. 
+Further, from these dictionaries, an array of pixel values was extracted from the DICOM images using the pydicom package and was stored in a separate folder after rescaling using the mean and standard deviation. Another folder contained the co-ordinates of the annotations for the corresponding images. 
 
-A total of 3000 annotated nodules was used for training out of which 2100 were used for training and the rest for testing. 
+A total of 3000 annotated CT images was used for training out of which 2100 were used for training and the rest for testing. 
 
