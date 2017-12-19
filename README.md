@@ -14,7 +14,7 @@ In this project, we use deep learning to detect lung cancer nodules.
 # Overview
 We provide a brief overview here. Detailed analysis can be found in the jupyter notebook "YOLO_FINAL.ipynb" .
 ## 1. Dataset
-The dataset used for this project is the LIDC-IDRI dataset. The whole dataset which is 124GB of images and annotations in the form of XML files can be obtained from the following link: 
+The LIDC-IDRI dataset was used for this project. The whole dataset which is 124 GB of images and annotations in the form of XML files can be obtained from the following link: 
 
 https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI
 
@@ -28,21 +28,21 @@ The first and biggest step was to organize the data. XML parsing was carried out
 
 Further, from these dictionaries, an array of pixel values was extracted from the DICOM images using the pydicom package and was stored in a separate folder after rescaling using the mean and standard deviation. Another folder contained the co-ordinates of the annotations for the corresponding images. 
 
-A total of 3000 annotated CT images were used for training out of which 2100 were used for training and the rest for testing. 
+A total of 3000 annotated CT images were used out of which 2100 were used for training and the rest for testing. 
 
 ## 2. Training 
 
-The YOLO algorithm detects objects and predicts bounding boxes with just one pass through the image instead of multiple sliding windows. Inspired from this idea, we tried out the YOLO algorithm to detect the probabilities of the presence of a nodule in a CT scan by dividing each scan into a 16 by 16 grid. Our algorithm does not predict bounding boxes.
+The YOLO (You Only Look Once) algorithm detects objects and predicts bounding boxes with just one pass through the image instead of multiple sliding windows. Inspired from this idea, we tried out the YOLO algorithm to detect the probabilities of the presence of a nodule in a CT scan by dividing each scan into a 16 by 16 grid. Our algorithm does not predict bounding boxes.
 
 For more information on the YOLO algorithm, read the paper at this link: 
 https://arxiv.org/abs/1506.02640
 
 
-A convolutional neural network with 23 layers that was inspired from u-net and resnet was designed after multiple iterations. A batch size of 1 worked the best and training was carried out on 2100 images. 
+A convolutional neural network with 18 layers that was inspired from u-net and resnet was designed after multiple iterations. A batch size of 1 worked the best and training was carried out on 2100 images. 
 
 ## 3. Testing and Analysis 
 
-An accuracy of 49% was obtained on randomly generated testing data that the model had never seen, as defined by our accuracy metric. For more details please refer to the jupyter notebook. 
+An accuracy of 65% was obtained on randomly generated testing data that the model had never seen, as defined by our accuracy metric. For more details please refer to the jupyter notebook. 
 
 ### We checked the training accuracy (not shown in the notebook) and it is very close to the testing accuracy. So we believe that the model is underfitting and are working on improving the network architecture. 
 
