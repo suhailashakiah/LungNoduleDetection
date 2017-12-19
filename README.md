@@ -44,5 +44,7 @@ A convolutional neural network with 23 layers that was inspired from u-net and r
 
 An accuracy of 49% was obtained on randomly generated testing data that the model had never seen, as defined by our accuracy metric. For more details please refer to the jupyter notebook. 
 
-#### Work in progress: 
+### We checked the training accuracy (not shown in the notebook) and it is very close to the testing accuracy. So we believe that the model is underfiting and are working on improving the network architecture. 
+
+###  Work in progress: 
 Change neural network architecture to increase accuracy. 
