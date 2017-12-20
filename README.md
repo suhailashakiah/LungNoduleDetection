@@ -11,6 +11,8 @@ In this project, we use deep learning to detect lung cancer nodules.
 5. Creating .npy files of image pixels for training.ipynb
 6. YOLO_FINAL.ipynb
 
+Note: All codes are original. We read the paper on YOLO algorithm and coded a version appropriate for the problem at hand. The code for callback function was taken from one of the assigments in the course. 
+
 # Overview
 We provide a brief overview here. Detailed analysis can be found in the jupyter notebook "YOLO_FINAL.ipynb" .
 ## 1. Dataset
