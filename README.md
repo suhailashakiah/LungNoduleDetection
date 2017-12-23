@@ -11,7 +11,8 @@ Lung cancer is the leading cause of cancer-related deaths in the US and worldwid
 5. Creating .npy files of image pixels for training.ipynb
 6. YOLO_FINAL.ipynb
 
-The JSON string of the model is provided as a pickled file "model_json_final.pkl". The trained weights are provided in "model_final_weights". The model can be reconstructed from these. 
+- The JSON string of the model is provided as a pickled file "model_json_final.pkl". The trained weights are provided in "model_final_weights". The model can be reconstructed from these. 
+- The model visualization code and the resulting .png file visualizing the model are also provided.
 
 Note: All codes are original. We read the paper on YOLO algorithm and coded a version appropriate for the problem at hand. The code for callback function was taken from one of the assigments in the course. 
 
