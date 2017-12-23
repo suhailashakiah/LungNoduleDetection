@@ -1,7 +1,7 @@
 ### Machine learning project for the course EL-GY 9123
 
 # Deep Learning for Lung Nodule Detection
-Lung cancer is the leading cause of cancer-related deaths in the US and worldwide. The general prognosis of lung cancer is poor because doctors tend not to find the disease until it is at an advanced stage. Five-year survival is around 54% for early stage lung cancer that is localized to the lungs, but only around 4% in advanced, inoperable lung cancer. Hence, there is a need for early detection of lung cancer nodules as early diagnosis can improve the chances of survival manifold. In this project, we use deep learning to detect lung cancer nodules. 
+Lung cancer is the leading cause of cancer-related deaths in the US and worldwide. The general prognosis of lung cancer is poor because doctors tend not to find the disease until it is at an advanced stage. Five-year survival is around 54% for early stage lung cancer that is localized to the lungs, but only around 4% in advanced, inoperable lung cancer. Hence, there is a need for early detection of lung cancer nodules as early diagnosis can improve the chances of survival manifold. In this project, we use deep learning to detect lung cancer nodules using the YOLO algorithm that has been predominantly used for self-driving cars and other non-medicine related applications, and the results were promising.  
 
 #### Code Hierarchi: 
 1. NODULES XML PROCESSING WITHOUT REGION DUPLICATES.ipynb
